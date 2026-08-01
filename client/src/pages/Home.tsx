@@ -334,7 +334,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16">
             {[
               {
-                label: "The Practice",
+                label: "Our Method",
                 text: "More than a scalp treatment, each ritual is an invitation to slow down. Our signature multi-sensory experiences gently guide the body from a state of stress into one of deep restoration. Through rhythmic massage, flowing warm water, botanical therapies, calming aromas, sound, and therapeutic touch, we create a sanctuary where the nervous system can settle, the scalp can flourish, and the mind can finally exhale.",
               },
               {
@@ -377,9 +377,9 @@ export default function Home() {
       {/* ── EDITORIAL IMAGE BREAK ─────────────────────────────────────────── */}
       <section style={{ position: "relative", height: "60vh", overflow: "hidden" }}>
         <img
-          src="/manus-storage/lounge_sofa_df3d29e9.jpg"
+          src="/manus-storage/lounge_full_683b3e67.jpg"
           alt="Tranquil Sands scalp analysis treatment room"
-          style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 40%" }}
+          style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 30%" }}
         />
         <div
           style={{
@@ -680,148 +680,6 @@ export default function Home() {
         </div>
       </Section>
 
-      {/* ── OUR METHOD ───────────────────────────────────────────────────── */}
-      <Section
-        id="story"
-        style={{
-          background: "oklch(0.975 0.012 85)",
-          padding: "8rem 0",
-          position: "relative",
-          overflow: "hidden",
-        }}
-      >
-        {/* Background image, very subtle */}
-        <div
-          style={{
-            position: "absolute",
-            right: 0,
-            top: 0,
-            bottom: 0,
-            width: "40%",
-            opacity: 0.12,
-            pointerEvents: "none",
-          }}
-        >
-          <img
-            src="/manus-storage/oway_ingredients_49925cf7.jpg"
-            alt=""
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
-          />
-        </div>
-        <div className="container" style={{ position: "relative" }}>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-            <div>
-              <div className="fade-up">
-                <div className="label-caps" style={{ marginBottom: "1.5rem", color: "oklch(0.55 0.04 65)" }}>
-                  Our Method
-                </div>
-                <h2
-                  className="font-display"
-                  style={{
-                    fontSize: "clamp(2rem, 4vw, 3.5rem)",
-                    fontWeight: 300,
-                    letterSpacing: "0.02em",
-                    lineHeight: 1.1,
-                    color: "oklch(0.28 0.03 55)",
-                    marginBottom: "2rem",
-                  }}
-                >
-                  5,000 years of wisdom, refined for the modern scalp.
-                </h2>
-              </div>
-              <div className="fade-up" style={{ transitionDelay: "100ms" }}>
-                <p
-                  style={{
-                    fontSize: "0.9rem",
-                    lineHeight: 1.9,
-                    color: "oklch(0.42 0.03 62)",
-                    fontWeight: 300,
-                    marginBottom: "1.5rem",
-                  }}
-                >
-                  Scalp massage is an ancient Ayurvedic practice with over 5,000 years of history. According to Ayurveda, there are 108 vital Marma points in the body — 31 of which are located in the head region. These pressure points, where arteries, veins, and cranial nerves intersect, aid in draining, cooling, and relieving pressure in the head.
-                </p>
-                <p
-                  style={{
-                    fontSize: "0.9rem",
-                    lineHeight: 1.9,
-                    color: "oklch(0.42 0.03 62)",
-                    fontWeight: 300,
-                    marginBottom: "2rem",
-                  }}
-                >
-                 Massaging these points boosts blood circulation and promotes healthy, stronger hair growth. Oil treatments nourish the hair, rejuvenate dry or damaged strands, and increase luster — while protecting against environmental stressors and premature greying.
-               </p>
-             </div>
-             <div className="fade-up" style={{ transitionDelay: "200ms" }}>
-              </div>
-              <div className="fade-up" style={{ transitionDelay: "160ms" }}>
-                <p
-                  style={{
-                    fontSize: "0.9rem",
-                    lineHeight: 1.9,
-                    color: "oklch(0.42 0.03 62)",
-                    fontWeight: 300,
-                    marginBottom: "2rem",
-                  }}
-                >
-                  Every mask is hand-blended in-house using <em>Oway</em> organic ingredients — loose herbs, botanical powders, and cold-pressed oils chosen for your scalp's specific needs. Nothing pre-mixed. Nothing shelf-stable. Just pure, living botanicals prepared fresh for your ritual.
-                </p>
-              </div>
-              <div className="fade-up" style={{ transitionDelay: "200ms" }}>
-               <div className="grid grid-cols-2 gap-6">
-                  {[
-                    { stat: "31", label: "Marma points in the head" },
-                    { stat: "5,000+", label: "Years of Ayurvedic practice" },
-                    { stat: "50×", label: "Microscopic scalp analysis" },
-                    { stat: "4", label: "Specialized treatment types" },
-                  ].map((item) => (
-                    <div key={item.label}>
-                      <div
-                        className="font-display"
-                        style={{
-                          fontSize: "2.25rem",
-                          fontWeight: 300,
-                          color: "oklch(0.55 0.06 55)",
-                          lineHeight: 1,
-                          marginBottom: "0.4rem",
-                        }}
-                      >
-                        {item.stat}
-                      </div>
-                      <div
-                        style={{
-                          fontSize: "0.75rem",
-                          color: "oklch(0.55 0.035 65)",
-                          fontWeight: 300,
-                          lineHeight: 1.4,
-                        }}
-                      >
-                        {item.label}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-            {/* Right: image */}
-            <div className="fade-up" style={{ transitionDelay: "150ms" }}>
-              <img
-               src="/manus-storage/lounge_full_683b3e67.jpg"
-                alt="Kristina performing a therapeutic arm massage"
-                style={{
-                  width: "100%",
-                  aspectRatio: "3/4",
-                  objectFit: "cover",
-                  objectPosition: "center 15%",
-                  borderRadius: "0.25rem",
-                }}
-              />
-            </div>
-          </div>
-        </div>
-      </Section>
-
       {/* ── SCALP TREATMENT TYPES ─────────────────────────────────────────── */}
       <Section
         style={{
@@ -1048,6 +906,82 @@ export default function Home() {
                   borderRadius: "0.25rem",
                 }}
               />
+            </div>
+          </div>
+        </div>
+      </Section>
+
+      {/* ── OUR STORY ────────────────────────────────────────────────────── */}
+      <Section
+        id="story"
+        style={{
+          background: "oklch(0.965 0.014 80)",
+          padding: "9rem 0",
+          borderTop: "1px solid oklch(0.82 0.04 70 / 0.4)",
+        }}
+      >
+        <div className="container">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-16 items-start">
+            {/* Left: label + title */}
+            <div className="md:col-span-4" ref={useFadeIn()}>
+              <div className="label-caps fade-up" style={{ marginBottom: "1.5rem", color: "oklch(0.55 0.04 65)" }}>
+                Our Story
+              </div>
+              <h2
+                className="font-display fade-up"
+                style={{
+                  fontSize: "clamp(2.2rem, 4vw, 3.5rem)",
+                  fontWeight: 300,
+                  letterSpacing: "0.02em",
+                  lineHeight: 1.1,
+                  color: "oklch(0.28 0.03 55)",
+                  marginBottom: "2rem",
+                  transitionDelay: "80ms",
+                }}
+              >
+                Where science meets nature, wellness meets beauty.
+              </h2>
+              <div
+                className="fade-up"
+                style={{
+                  width: "2.5rem",
+                  height: "1px",
+                  background: "oklch(0.62 0.08 65)",
+                  transitionDelay: "160ms",
+                }}
+              />
+            </div>
+            {/* Right: full story copy */}
+            <div className="md:col-span-8" ref={useFadeIn()}>
+              {[
+                "Tranquil Sands was born from a simple realization: we spend so much time caring for our hair, yet we rarely care for the place it grows from.",
+                "After years behind the chair as a licensed cosmetologist, I saw countless people searching for healthier, fuller, more vibrant hair while overlooking the foundation that makes it all possible — the scalp. We often don't think about our scalp until something feels wrong, but just like healthy soil nurtures a thriving garden, a healthy scalp creates the ideal environment for strong, beautiful hair.",
+                "That belief became the beginning of Tranquil Sands.",
+                "But there was another piece of the puzzle that felt just as important.",
+                "In today's fast-paced world, we're constantly pulled in every direction. Our nervous systems rarely have the opportunity to truly rest. I wanted to create more than a treatment for the scalp — I wanted to create a space where people could pause. A place to breathe deeply, slow down, and reconnect with themselves.",
+                "By bringing together holistic scalp wellness and intentional nervous system regulation, Tranquil Sands became a sanctuary unlike any other.",
+                "Every experience is thoughtfully designed to engage the senses. From our calming, wabi-sabi-inspired desert aesthetic and soothing soundscapes to the earthy aroma of organic herbal tonics and freshly hand-blended masks customized to your scalp's unique needs, every detail has a purpose. Our signature scalp facials combine therapeutic massage, pressure point techniques, botanical ingredients, and restorative wellness modalities to nourish the scalp, encourage healthy hair growth, and invite the body into a state of deep relaxation.",
+                "We believe true beauty begins with balance.",
+                "When the scalp is cared for, healthy hair can flourish. When the nervous system is supported, the body has the opportunity to rest, restore, and heal. Rest and restoration are not luxuries — they are essential to long-term hair health, vitality, and longevity.",
+                "At Tranquil Sands, our mission is to care for both.",
+                "We invite you to step away from the noise, sink into stillness, and experience a new way of caring for yourself — where science meets nature, wellness meets beauty, and every visit feels like an escape into tranquility.",
+              ].map((para, i) => (
+                <p
+                  key={i}
+                  className="fade-up"
+                  style={{
+                    fontSize: para === "That belief became the beginning of Tranquil Sands." || para === "But there was another piece of the puzzle that felt just as important." || para === "We believe true beauty begins with balance." || para === "At Tranquil Sands, our mission is to care for both." ? "1rem" : "0.9rem",
+                    fontStyle: para === "That belief became the beginning of Tranquil Sands." || para === "We believe true beauty begins with balance." ? "italic" : "normal",
+                    lineHeight: 1.9,
+                    color: para === "That belief became the beginning of Tranquil Sands." || para === "We believe true beauty begins with balance." ? "oklch(0.38 0.04 62)" : "oklch(0.42 0.03 62)",
+                    fontWeight: 300,
+                    marginBottom: para === "That belief became the beginning of Tranquil Sands." || para === "But there was another piece of the puzzle that felt just as important." || para === "We believe true beauty begins with balance." || para === "At Tranquil Sands, our mission is to care for both." ? "2rem" : "1.4rem",
+                    transitionDelay: `${i * 40}ms`,
+                  }}
+                >
+                  {para}
+                </p>
+              ))}
             </div>
           </div>
         </div>

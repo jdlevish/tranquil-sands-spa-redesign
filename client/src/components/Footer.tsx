@@ -17,7 +17,7 @@ export default function Footer() {
         {/* Brand arc motif — thin travertine gesture */}
         <div style={{ marginBottom: "4rem", display: "flex", alignItems: "center", gap: "1.5rem" }}>
           <img
-            src="/manus-storage/logo_5725a325.png"
+            src="/manus-storage/tranquil_sands_logo_v2_1dc305bb.png"
             alt="Tranquil Sands"
             style={{ width: "2.5rem", height: "2.5rem", objectFit: "contain", opacity: 0.7 }}
           />

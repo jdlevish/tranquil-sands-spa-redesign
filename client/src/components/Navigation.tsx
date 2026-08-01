@@ -59,41 +59,19 @@ export default function Navigation() {
               }}
               className="flex items-center gap-3 no-underline"
             >
-              <img
-                src="/manus-storage/logo_5725a325.png"
-                alt="Tranquil Sands"
-                className="w-10 h-10 object-contain"
-              />
-              <div>
-                <div
-                  className="font-display leading-none"
-                  style={{
-                    fontSize: "1.15rem",
-                    letterSpacing: "0.06em",
-                    color: scrolled
-                      ? "oklch(0.28 0.03 55)"
-                      : "oklch(0.975 0.012 85)",
-                    transition: "color 500ms ease",
-                    fontWeight: 400,
-                  }}
-                >
-                  Tranquil Sands
-                </div>
-                <div
-                  className="label-caps"
-                  style={{
-                    fontSize: "0.55rem",
-                    letterSpacing: "0.22em",
-                    color: scrolled
-                      ? "oklch(0.55 0.035 65)"
-                      : "oklch(0.975 0.012 85 / 0.7)",
-                    transition: "color 500ms ease",
-                    marginTop: "1px",
-                  }}
-                >
-                  Scalp Spa · Palm Desert
-                </div>
-              </div>
+             <img
+               src="/manus-storage/tranquil_sands_logo_v2_1dc305bb.png"
+               alt="Tranquil Sands"
+                className="object-contain"
+                style={{
+                  height: "56px",
+                  width: "auto",
+                  filter: scrolled
+                    ? "brightness(0) saturate(100%)"
+                    : "brightness(0) invert(1)",
+                  transition: "filter 500ms ease",
+                }}
+             />
             </a>
 
             {/* Desktop nav links */}
