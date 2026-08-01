@@ -216,7 +216,7 @@ export default function Home() {
         }}
       >
         <img
-          src="/manus-storage/lounge_sofa_df3d29e9.jpg"
+          src="/manus-storage/hero_e01c93f8.jpg"
           alt="Tranquil Sands lounge — Palm Desert"
           style={{
             position: "absolute",
@@ -224,7 +224,7 @@ export default function Home() {
             width: "100%",
             height: "100%",
             objectFit: "cover",
-            objectPosition: "center 70%",
+            objectPosition: "center 40%",
           }}
         />
         {/* Gradient overlay */}
@@ -335,7 +335,7 @@ export default function Home() {
             {[
               {
                 label: "The Practice",
-                text: "Rooted in 5,000 years of Ayurvedic wisdom, our scalp rituals activate 31 Marma pressure points in the head — restoring circulation, dissolving tension, and awakening the body's innate capacity to heal.",
+                text: "More than a scalp treatment, each ritual is an invitation to slow down. Our signature multi-sensory experiences gently guide the body from a state of stress into one of deep restoration. Through rhythmic massage, flowing warm water, botanical therapies, calming aromas, sound, and therapeutic touch, we create a sanctuary where the nervous system can settle, the scalp can flourish, and the mind can finally exhale.",
               },
               {
                 label: "The Ingredients",
@@ -377,7 +377,7 @@ export default function Home() {
       {/* ── EDITORIAL IMAGE BREAK ─────────────────────────────────────────── */}
       <section style={{ position: "relative", height: "60vh", overflow: "hidden" }}>
         <img
-          src="/manus-storage/analysis_room_b4590982.jpg"
+          src="/manus-storage/lounge_sofa_df3d29e9.jpg"
           alt="Tranquil Sands scalp analysis treatment room"
           style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 40%" }}
         />
@@ -611,7 +611,7 @@ export default function Home() {
           {/* Image */}
           <div style={{ position: "relative", minHeight: "50vh" }}>
             <img
-              src="/manus-storage/lounge_full_683b3e67.jpg"
+              src="/manus-storage/arm_treatment_740780ff.jpg"
               alt="Tranquil Sands lounge in afternoon light"
               style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
             />
@@ -807,7 +807,7 @@ export default function Home() {
             {/* Right: image */}
             <div className="fade-up" style={{ transitionDelay: "150ms" }}>
               <img
-               src="/manus-storage/arm_treatment_740780ff.jpg"
+               src="/manus-storage/lounge_full_683b3e67.jpg"
                 alt="Kristina performing a therapeutic arm massage"
                 style={{
                   width: "100%",
