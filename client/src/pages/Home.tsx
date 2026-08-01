@@ -216,15 +216,15 @@ export default function Home() {
         }}
       >
         <img
-          src="/manus-storage/hero_e01c93f8.jpg"
-          alt="Scalp ritual at Tranquil Sands"
+          src="/manus-storage/lounge_sofa_df3d29e9.jpg"
+          alt="Tranquil Sands lounge — Palm Desert"
           style={{
             position: "absolute",
             inset: 0,
             width: "100%",
             height: "100%",
             objectFit: "cover",
-            objectPosition: "center 30%",
+            objectPosition: "center 70%",
           }}
         />
         {/* Gradient overlay */}
@@ -377,8 +377,8 @@ export default function Home() {
       {/* ── EDITORIAL IMAGE BREAK ─────────────────────────────────────────── */}
       <section style={{ position: "relative", height: "60vh", overflow: "hidden" }}>
         <img
-          src="/manus-storage/interior_7de3c324.jpg"
-          alt="Tranquil Sands treatment room"
+          src="/manus-storage/analysis_room_b4590982.jpg"
+          alt="Tranquil Sands scalp analysis treatment room"
           style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 40%" }}
         />
         <div
@@ -611,8 +611,8 @@ export default function Home() {
           {/* Image */}
           <div style={{ position: "relative", minHeight: "50vh" }}>
             <img
-              src="/manus-storage/hands_treatment_58012604.jpg"
-              alt="Scalp treatment ritual"
+              src="/manus-storage/lounge_full_683b3e67.jpg"
+              alt="Tranquil Sands lounge in afternoon light"
               style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
             />
           </div>
@@ -703,7 +703,7 @@ export default function Home() {
           }}
         >
           <img
-            src="/manus-storage/botanicals_f6e644c8.jpg"
+            src="/manus-storage/oway_ingredients_49925cf7.jpg"
             alt=""
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
@@ -750,11 +750,26 @@ export default function Home() {
                     marginBottom: "2rem",
                   }}
                 >
-                  Massaging these points boosts blood circulation and promotes healthy, stronger hair growth. Oil treatments nourish the hair, rejuvenate dry or damaged strands, and increase luster — while protecting against environmental stressors and premature greying.
+                 Massaging these points boosts blood circulation and promotes healthy, stronger hair growth. Oil treatments nourish the hair, rejuvenate dry or damaged strands, and increase luster — while protecting against environmental stressors and premature greying.
+               </p>
+             </div>
+             <div className="fade-up" style={{ transitionDelay: "200ms" }}>
+              </div>
+              <div className="fade-up" style={{ transitionDelay: "160ms" }}>
+                <p
+                  style={{
+                    fontSize: "0.9rem",
+                    lineHeight: 1.9,
+                    color: "oklch(0.42 0.03 62)",
+                    fontWeight: 300,
+                    marginBottom: "2rem",
+                  }}
+                >
+                  Every mask is hand-blended in-house using <em>Oway</em> organic ingredients — loose herbs, botanical powders, and cold-pressed oils chosen for your scalp's specific needs. Nothing pre-mixed. Nothing shelf-stable. Just pure, living botanicals prepared fresh for your ritual.
                 </p>
               </div>
               <div className="fade-up" style={{ transitionDelay: "200ms" }}>
-                <div className="grid grid-cols-2 gap-6">
+               <div className="grid grid-cols-2 gap-6">
                   {[
                     { stat: "31", label: "Marma points in the head" },
                     { stat: "5,000+", label: "Years of Ayurvedic practice" },
@@ -792,12 +807,13 @@ export default function Home() {
             {/* Right: image */}
             <div className="fade-up" style={{ transitionDelay: "150ms" }}>
               <img
-                src="/manus-storage/steam_1b0b43e0.jpg"
-                alt="Botanical steam ritual"
+               src="/manus-storage/arm_treatment_740780ff.jpg"
+                alt="Kristina performing a therapeutic arm massage"
                 style={{
                   width: "100%",
                   aspectRatio: "3/4",
                   objectFit: "cover",
+                  objectPosition: "center 15%",
                   borderRadius: "0.25rem",
                 }}
               />
@@ -1022,12 +1038,13 @@ export default function Home() {
             {/* Image */}
             <div className="fade-up" style={{ transitionDelay: "100ms" }}>
               <img
-                src="/manus-storage/ritual_2b8c8301.jpg"
-                alt="Botanical ritual tools"
+               src="/manus-storage/oway_herbs_bowl_76935212.jpg"
+                alt="Hand-blended Oway botanical herbs for scalp mask"
                 style={{
                   width: "100%",
                   aspectRatio: "4/3",
                   objectFit: "cover",
+                  objectPosition: "center 70%",
                   borderRadius: "0.25rem",
                 }}
               />
@@ -1090,16 +1107,16 @@ export default function Home() {
       >
         <div style={{ position: "relative", minHeight: "60vh" }}>
           <img
-            src="/manus-storage/product_detail_65a9b4b1.jpg"
-            alt="Organic scalp care"
-            style={{
-              position: "absolute",
-              inset: 0,
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              objectPosition: "center",
-            }}
+             src="/manus-storage/lounge_sunlight_a496149d.jpg"
+              alt="Tranquil Sands lounge at golden hour"
+              style={{
+                position: "absolute",
+                inset: 0,
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                objectPosition: "center 30%",
+              }}
           />
           <div
             style={{
