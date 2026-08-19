@@ -206,6 +206,9 @@ function vitePluginStorageProxy(): Plugin {
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
 
 export default defineConfig({
+  // GitHub project pages are served from /<repository-name>/ rather than /.
+  // Keep local development at / while generating production asset URLs for Pages.
+  base: process.env.GITHUB_ACTIONS ? "/tranquil-sands-spa-redesign/" : "/",
   plugins,
   resolve: {
     alias: {
